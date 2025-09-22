@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxnrhh1vslra"
+path="res://.godot/imported/Leaves Footsteps (3).mp3-78b7552e05446fdb3170b8f774be68fd.mp3str"
+
+[deps]
+
+source_file="res://sfx/horror_sfx/horror_sfx_vol_1/Leaves Footsteps/Leaves Footsteps (3).mp3"
+dest_files=["res://.godot/imported/Leaves Footsteps (3).mp3-78b7552e05446fdb3170b8f774be68fd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxb2pj0w5dl1o"
+path="res://.godot/imported/Gravel Footsteps (2).mp3-ac414bb7900ce100693b66a5a88a387b.mp3str"
+
+[deps]
+
+source_file="res://sfx/horror_sfx/Gravel Footsteps/Gravel Footsteps (2).mp3"
+dest_files=["res://.godot/imported/Gravel Footsteps (2).mp3-ac414bb7900ce100693b66a5a88a387b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

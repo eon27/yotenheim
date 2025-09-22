@@ -1,0 +1,44 @@
+[gd_scene load_steps=10 format=3 uid="uid://drke6fmcrn0i6"]
+
+[ext_resource type="Script" uid="uid://bv0mob7l2xuh2" path="res://addons/zylann.hterrain/hterrain.gd" id="1_ut5xx"]
+[ext_resource type="Resource" uid="uid://b1wt3d11yond7" path="res://mapData/data.hterrain" id="2_y8kj2"]
+[ext_resource type="Script" uid="uid://xtvtgvhdwavl" path="res://addons/zylann.hterrain/hterrain_texture_set.gd" id="3_6ln23"]
+[ext_resource type="Texture2D" uid="uid://ddprscrpsofah" path="res://demo/assets/textures/ground037_alb_ht.png" id="4_gqqcy"]
+[ext_resource type="Texture2D" uid="uid://c1ots7w6i0i1q" path="res://demo/assets/textures/ground037_nrm_rgh.png" id="5_66ind"]
+[ext_resource type="PackedScene" uid="uid://domhm87hbhbg1" path="res://demo/components/Player.tscn" id="6_k77tr"]
+[ext_resource type="PackedScene" uid="uid://bb2lp50sjndus" path="res://demo/components/Environment.tscn" id="7_y8kj2"]
+[ext_resource type="PackedScene" uid="uid://d2jihfohphuue" path="res://demo/components/UI.tscn" id="8_6ln23"]
+
+[sub_resource type="Resource" id="Resource_s1f86"]
+script = ExtResource("3_6ln23")
+mode = 0
+textures = [[ExtResource("4_gqqcy")], [ExtResource("5_66ind")]]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="HTerrain" type="Node3D" parent="."]
+script = ExtResource("1_ut5xx")
+centered = true
+_terrain_data = ExtResource("2_y8kj2")
+chunk_size = 32
+collision_enabled = true
+collision_layer = 1
+collision_mask = 1
+shader_type = "Classic4Lite"
+custom_shader = null
+custom_globalmap_shader = null
+texture_set = SubResource("Resource_s1f86")
+render_layers = 1
+cast_shadow = 1
+shader_params/u_ground_uv_scale = 20
+shader_params/u_depth_blending = true
+shader_params/u_triplanar = null
+shader_params/u_tile_reduction = null
+metadata/_custom_type_script = "uid://bv0mob7l2xuh2"
+
+[node name="Player" parent="." instance=ExtResource("6_k77tr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 34.80739, 0)
+
+[node name="Environment" parent="." instance=ExtResource("7_y8kj2")]
+
+[node name="UI" parent="." instance=ExtResource("8_6ln23")]

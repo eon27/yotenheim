@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brevpubqy1geq"
+path="res://.godot/imported/Metal Footsteps (4).mp3-f8f85c694640372092c52e1dc925b616.mp3str"
+
+[deps]
+
+source_file="res://sfx/horror_sfx/horror_sfx_vol_1/Metal Footsteps/Metal Footsteps (4).mp3"
+dest_files=["res://.godot/imported/Metal Footsteps (4).mp3-f8f85c694640372092c52e1dc925b616.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

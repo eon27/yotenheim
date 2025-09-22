@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bibh12fw2qguw"
+path="res://.godot/imported/Carpet Footstep (2).mp3-31bd6043520ed0c6dfbcfdad0d672585.mp3str"
+
+[deps]
+
+source_file="res://sfx/horror_sfx/horror_sfx_vol_1/Carpet Footstep/Carpet Footstep (2).mp3"
+dest_files=["res://.godot/imported/Carpet Footstep (2).mp3-31bd6043520ed0c6dfbcfdad0d672585.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

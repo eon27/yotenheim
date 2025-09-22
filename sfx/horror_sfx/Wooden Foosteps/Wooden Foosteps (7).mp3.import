@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://37ifg7knjcox"
+path="res://.godot/imported/Wooden Foosteps (7).mp3-dbe7c5d95bb9f31a9123ee6002d6700e.mp3str"
+
+[deps]
+
+source_file="res://sfx/horror_sfx/Wooden Foosteps/Wooden Foosteps (7).mp3"
+dest_files=["res://.godot/imported/Wooden Foosteps (7).mp3-dbe7c5d95bb9f31a9123ee6002d6700e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
